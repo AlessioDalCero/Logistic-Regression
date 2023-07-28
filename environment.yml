@@ -1,8 +1,15 @@
 name: Logistic Regression-environment
 
-
+channels:
+  - conda-forge
 dependencies:
-  - python
-  - pip
-  - jupyter
-
+  - python=3.11
+  - numpy
+  - psutil
+  - toolz
+  - matplotlib
+  - dill
+  - pandas
+  - partd
+  - bokeh
+  - dask
